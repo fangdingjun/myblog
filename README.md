@@ -2,3 +2,4 @@ myblog
 ======
 
 1. [通过ssh远程访问家中的设备](https://github.com/fangdingjun/myblog/blob/master/ssh_tunnel_for_internal_network.md#%E4%BD%BF%E7%94%A8ssh%E9%81%82%E9%81%93%E8%BF%9C%E7%A8%8B%E8%AE%BF%E9%97%AE%E5%AE%B6%E4%B8%AD%E7%9A%84%E8%AE%BE%E5%A4%87)
+2. [Linux 下SQLITE数据库无法在NFS/CIFS之上运行的解决办法](https://github.com/fangdingjun/myblog/blob/master/sqlite_cifs_lock.md#linux-%E4%B8%8Bsqlite%E6%95%B0%E6%8D%AE%E5%BA%93%E6%97%A0%E6%B3%95%E5%9C%A8nfscifs%E4%B9%8B%E4%B8%8A%E8%BF%90%E8%A1%8C%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95)
