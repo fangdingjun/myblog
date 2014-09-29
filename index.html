@@ -1,56 +1,71 @@
-<!DOCTYPE html>
+<!doctype html>
+<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
+<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on http://github.com/jonrohan -->
 <html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Myblog : This is myblog post">
+  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen">
+  <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/script.js"></script>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+  <title>Myblog</title>
+  <meta name="description" content="This is myblog post">
 
-    <title>Myblog</title>
-  </head>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
 
-  <body>
+</head>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/fangdingjun/myblog">View on GitHub</a>
+<body>
 
-          <h1 id="project_title">Myblog</h1>
-          <h2 id="project_tagline">This is myblog post</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/fangdingjun/myblog/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/fangdingjun/myblog/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>
+  <div class="wrapper">
+    <header>
+      <h1 class="title">Myblog</h1>
+    </header>
+    <div id="container">
+      <p class="tagline">This is myblog post</p>
+      <div id="main" role="main">
+        <div class="download-bar">
+        <div class="inner">
+          <a href="https://github.com/fangdingjun/myblog/tarball/master" class="download-button tar"><span>Download</span></a>
+          <a href="https://github.com/fangdingjun/myblog/zipball/master" class="download-button zip"><span>Download</span></a>
+          <a href="https://github.com/fangdingjun/myblog" class="code">View Myblog on GitHub</a>
+        </div>
+        <span class="blc"></span><span class="trc"></span>
+        </div>
+        <article class="markdown-body">
+          <h1>
 <a name="myblog" class="anchor" href="#myblog"><span class="octicon octicon-link"></span></a>myblog</h1>
 
 <ol>
 <li><a href="https://github.com/fangdingjun/myblog/blob/master/ssh_tunnel_for_internal_network.md#%E4%BD%BF%E7%94%A8ssh%E9%81%82%E9%81%93%E8%BF%9C%E7%A8%8B%E8%AE%BF%E9%97%AE%E5%AE%B6%E4%B8%AD%E7%9A%84%E8%AE%BE%E5%A4%87">通过ssh远程访问家中的设备</a></li>
 <li><a href="https://github.com/fangdingjun/myblog/blob/master/sqlite_cifs_lock.md#linux-%E4%B8%8Bsqlite%E6%95%B0%E6%8D%AE%E5%BA%93%E6%97%A0%E6%B3%95%E5%9C%A8nfscifs%E4%B9%8B%E4%B8%8A%E8%BF%90%E8%A1%8C%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95">Linux 下SQLITE数据库无法在NFS/CIFS之上运行的解决办法</a></li>
 <li><a href="https://github.com/fangdingjun/myblog/blob/master/cx_freeze_windows_python.md#%E5%88%A9%E7%94%A8cx_freeze%E5%9C%A8%E6%B2%A1%E6%9C%89python%E7%9A%84windows%E4%B8%8A%E8%BF%90%E8%A1%8Cpython%E6%BA%90%E4%BB%A3%E7%A0%81">利用cx_freeze在没有Python的Windows上运行Python源代码</a></li>
+<li><a href="https://github.com/fangdingjun/myblog/blob/master/linux_trace.md#linux%E4%B8%8B%E6%9F%A5%E7%9C%8B%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8%E5%85%B3%E7%B3%BB">Linux下查看函数调用关系</a></li>
+<li><a href="https://github.com/fangdingjun/myblog/blob/master/nginx_twitter.md#%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86twittercom%E7%9A%84nginx%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6">反向代理twitter的配置文件</a></li>
 </ol>
-      </section>
+        </article>
+      </div>
     </div>
+    <footer>
+      <div class="owner">
+      <p><a href="https://github.com/fangdingjun" class="avatar"><img src="https://avatars0.githubusercontent.com/u/231896?v=2&amp;s=60" width="48" height="48"></a> <a href="https://github.com/fangdingjun">fangdingjun</a> maintains <a href="https://github.com/fangdingjun/myblog">Myblog</a></p>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Myblog maintained by <a href="https://github.com/fangdingjun">fangdingjun</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
 
-    
+      </div>
+      <div class="creds">
+        <small>This page generated using <a href="http://pages.github.com/">GitHub Pages</a><br>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
+      </div>
+    </footer>
+  </div>
+  <div class="current-section">
+    <a href="#top">Scroll to top</a>
+    <a href="https://github.com/fangdingjun/myblog/tarball/master" class="tar">tar</a><a href="https://github.com/fangdingjun/myblog/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
+    <p class="name"></p>
+  </div>
 
-  </body>
+  
+</body>
 </html>
