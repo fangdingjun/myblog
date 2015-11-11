@@ -7,3 +7,4 @@ myblog
 4. [Linux下查看函数调用关系](https://github.com/fangdingjun/myblog/blob/master/linux_trace.md#linux%E4%B8%8B%E6%9F%A5%E7%9C%8B%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8%E5%85%B3%E7%B3%BB)
 5. [反向代理twitter的配置文件](https://github.com/fangdingjun/myblog/blob/master/nginx_twitter.md#%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86twittercom%E7%9A%84nginx%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6)
 6. [让你的web server支持http/2.0](https://github.com/fangdingjun/myblog/blob/master/web_server_http2.md#%E8%AE%A9%E4%BD%A0%E7%9A%84web-server%E6%94%AF%E6%8C%81http20)
+7. [通过openvpn使用搬瓦工ipv6](https://github.com/fangdingjun/myblog/blob/master/bandwagon_ipv6.md#通过openvpn使用搬瓦工ipv6)
